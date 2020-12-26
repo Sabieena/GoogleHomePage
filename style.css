@@ -24,5 +24,45 @@
     text-align: center;
 }
 
+#SearchBarContainer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#searchBar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    outline: 0;
+    width: 500px;
+    text-align: left;
+    border: 2px solid #eeeeee;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.fa-search{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 15px;
+}
+
+button{
+    background-color: lightgray;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 2px 1px black;
+    border: 2px solid #eee;
+}
 
 
