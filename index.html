@@ -18,7 +18,7 @@
     <div id="middle">
         <div id="logo">
             <img src="images.png" alt="">
-            <p id="paragraph"></p>
+            
         </div>
     </div>
 
@@ -32,7 +32,9 @@
     </div>
 
     <script>
-        document.getElementById("paragraph").textContent="Welcome to Google";
+        var a = document.createElement('p');
+        a.textContent = "Hello, Everyone!"
+        document.body.appendChild(a);
     </script>
 
 
